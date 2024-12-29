@@ -1,7 +1,6 @@
 "# PythonEssentials1_CiscoAcademy" 
 
 
-https://www.netacad.com/launch?id=da0847b7-e6fc-4597-bc31-38ddd6b07a2e&tab=curriculum&view=9c6dc5f1-c062-5593-a515-178979441149
 
 
 CPython is the original (traditional) Python language implementation written in the C language, as opposed to other, non-default implementations, such as Jython, implemented in the Java language, which came later. CPython is the Python language implementation available for download from www.python.org, and the first to adopt new features that come with all the subsequent Python versions.
