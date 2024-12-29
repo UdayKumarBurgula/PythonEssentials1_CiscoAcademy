@@ -167,6 +167,318 @@ for i in range(6, 1, -2):
  
 
 
+---------------------------------------------------------
+--------------------------------------------------------
+
+
+print("ha halee lu yah,..")  
+print("The itsy bitsy spider climbed up the waterspout.")
+print("Down came the rain and washed the spider out.")
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+
+print("The itsy bitsy spider\\nclimbed up the waterspout.")
+print()
+print("Down came the rain\\nand washed the spider out.")
+print()
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+print("My name is", "Python.")
+print("Monty Python.")
+
+print()
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+
+print()
+print("My name is", "Python.", end="")
+print("Monty Python.")
+
+print()
+print("My", "name", "is", "Monty", "Python.", sep="-")
+
+print()
+print("with end below 2 code lines print in one line..")
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+
+print()
+print("Programming","Essentials","in", sep="*",end="...")
+print("Python")
+
+
+print("        *        "*2)
+print("       * *       "*2)
+print("      *   *      "*2)
+print("     *     *     "*2)
+print("    *       *    "*2)
+print("   *         *   "*2)
+print("  *           *  "*2)
+print(" *             * "*2)
+print("******     ******"*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *     *     "*2)
+print("     *******     "*2)
+
+
+print(0o123)
+print(0x123)
+
+
+print(4)
+print(4.0)
+print(3E8)
+print()
+print(0.0000000000000000000001)
+
+print(True > False)
+print(True < False)
+
+
+print(2+2)
+print(2 ** 3)
+print(2 ** 3.)
+print(2. ** 3)
+print(2. ** 3.)
+
+print()
+print(6 / 3)
+print(6 / 3.)
+print(6. / 3)
+print(6. / 3.)
+print(6 // 4)
+print(6. // 4)
+
+
+print(-6 // 4)
+print(6. // -4)
+
+"""
+
+
+"""
+a = 6
+b = 3
+a /= 2 * b
+print(a)
+print()
+print()
+
+print(14 % 4)
+print(2 ** 3)
+print(8 ** 2)
+print(2 ** 3 ** 2)
+print(64 * 64)
+print()
+print(5 % 13)
+print(2 * 13)
+print( ( (25 % 13) + 100) / (2 * 13)   )
+print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
+
+"""
+
+"""
+print("Tell me anything...")
+anything = input()
+print("Hmm...", anything, "... Really?")
+
+
+anything = float(input("Enter a number: "))
+something = anything ** 2.0
+print(anything, "to the power of 2 is", something)
+
+"""
+
+"""
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
+"""
+
+"""
+
+print()
+x = int(input("enter input parameters"))
+
+print(   1 /  ( x + (1 / (x + (1 / (x+ (1/x)))) )) )
+
+print()
+x = int(input("enter input parameters"))
+
+print(   1 /  ( x + (1 / (x + (1 / (x+ (1/x)))) )) )
+
+print()
+x = int(input("enter input parameters"))
+
+print(   1 /  ( x + (1 / (x + (1 / (x+ (1/x)))) )) )
+
+
+
+print()
+x = int(input("enter input parameters"))
+
+print(   1 /  ( x + (1 / (x + (1 / (x+ (1/x)))) )) )
+
+
+"""
+
+
+"""
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+mins = mins + dura # find a total of all minutes
+print("mins")
+print(mins)
+print(mins // 60)
+hour = hour + mins // 60 # find a number of hours hidden in minutes and update the hour
+print("hours")
+print(hour)
+mins = mins % 60 # correct minutes to fall in the (0..59) range
+print("mins")
+print(mins)
+hour = hour % 24 # correct hours to fall in the (0..23) range
+print("hours")
+print(hour)
+print(hour, ":", mins, sep='')
+
+"""
+
+
+"""
+print (1/1)
+
+x = int(input())
+y = int(input())
+ 
+x = x % y
+x = x % y
+y = y % x
+ 
+print(y)
+
+"""
+
+"""
+
+x = 1 / 2 + 3 // 3 + 4 ** 2
+print(x)
+
+n = int(input("Enter a number: "))
+print(n >= 100)
+
+"""
+
+
+"""
+
+# Read three numbers
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+number3 = int(input("Enter the third number: "))
+ 
+# We temporarily assume that the first number
+# is the largest one.
+# We will verify this soon.
+largest_number = number1
+ 
+# We check if the second number is larger than the current largest_number
+# and update the largest_number if needed.
+if number2 > largest_number:
+    largest_number = number2
+ 
+# We check if the third number is larger than the current largest_number
+# and update the largest_number if needed.
+if number3 > largest_number:
+    largest_number = number3
+ 
+# Print the result
+print("The largest number is:", largest_number)
+
+"""
+
+"""
+# Read three numbers.
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+number3 = int(input("Enter the third number: "))
+ 
+# Check which one of the numbers is the greatest
+# and pass it to the largest_number variable.
+ 
+largest_number = max(number1, number2, number3)
+ 
+# Print the result.
+print("The largest number is:", largest_number)
+
+"""
+
+"""
+income = float(input("Enter the annual income: "))
+
+if income < 85528:
+	tax = income * 0.18 - 556.02
+else:
+	tax = (income - 85528) * 0.32 + 14839.02
+
+if tax < 0.0:
+	tax = 0.0
+
+tax = round(tax, 0)
+print("The tax is:", tax, "thalers")
+
+
+for i in range(10):
+    print("The value of i is currently", i)
+
+
+counter = 5
+while counter != 0:
+    print('Inside the loop.', counter)
+    counter -= 1
+print('Outside the loop.', counter)
+
+import time
+i=1
+
+    # Write a for loop that counts to five.
+    # Body of the loop - print the loop iteration number and the word "Mississippi".
+    # Body of the loop - use: time.sleep(1)
+    
+for i in range(5):
+    print(i, "Mississippi")
+    time.sleep(1)
+
+print("Ready or not, here I come!")
+
+my_list = [10, 1, 8, 3, 5]
+total = 0
+ 
+for i in my_list:
+    total += i
+ 
+print(total)
+
+"""
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
